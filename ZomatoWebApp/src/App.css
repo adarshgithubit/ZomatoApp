@@ -1,0 +1,144 @@
+.container {
+ width: 100vw;
+ height: 100vh;
+
+ background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+position: relative;
+}
+
+.containerWrap {
+ width: 100%;
+ height: 100%;
+/* 
+background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.topBox {
+  width: 100%;
+  position: relative;
+ 
+
+}
+.loginBox {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  right: 0vw;
+  padding: 2vw;
+}
+
+.signUpTxt > span {
+  font-size: 1.8vw;
+  color: #ffff;
+
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+.signUpTxt:first-child {
+  margin-right: 4vw; /* Adjust the margin value as needed */
+}
+.textContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.headerText {
+ 
+  color: #ffff;
+  font-size: 2.2vw;
+  font-weight: 700;
+  height: 9vw;
+
+}
+.paraText {
+
+  color: #ffff;
+  font-size: 1.9vw;
+  font-weight: 500;
+  width: 31vw;
+  text-align: center;
+  
+}
+
+
+
+.popUpCardContainer {
+ width: 30vw;
+ height: 30vw;
+ border-radius: 1vw;
+ background-color: #fff;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+  box-sizing: border-box;
+  padding: 1.4vw;
+}
+
+.popupContentBox {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.popupContentBox > p {
+  font-size: 1.44vw;
+  color: rgb(79, 79, 79);
+  font-weight: 600;
+  
+}
+
+.popupContentBox p:nth-child(2) {
+  cursor: pointer;
+  /* Additional styles specific to the second p tag */
+}
+
+.inputContainer {
+  width: 90%;
+  margin-top: 2.2vw;
+}
+
+.inputBox {
+  width: 100%;
+  border: 0.1rem solid rgb(207, 207, 207);;
+  border-radius: 0.4vw;
+  margin-top: 2.5vw;
+}
+
+.inputBox > input {
+  width: 100%;
+  font-size: 1.1vw;
+  outline: none;
+  border: none;
+  padding: 0.7vw;
+  box-sizing: border-box;
+  border-radius: 0.4vw;
+
+}
+.checkBoxContainer {
+  width: 90%;
+  margin-top: 2.2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.checkBoxContainer > input {
+  width: 1.5vw;
+}
+.textCheck {
+  font-size: 0.9vw;
+  color: black;
+}
+
+
+
