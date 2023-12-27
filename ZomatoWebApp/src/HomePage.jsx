@@ -40,9 +40,9 @@ const HomePage = () => {
         </div>
        { openSignUp && (
         <>
-        <div >
+       
         <SignUp closePopUpBox={closeSignUpBox}/>
-        </div>
+     
     
         
         </>
