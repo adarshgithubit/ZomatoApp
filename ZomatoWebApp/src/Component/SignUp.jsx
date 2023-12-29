@@ -25,6 +25,9 @@ const SignUp = ({ closePopUpBox }) => {
       Password,
     };
 
+    localStorage.setItem("userName",name)
+    localStorage.setItem("password",Password)
+
     console.log("signup sucessfull", data);
     alert("You Have created account sucessfully");
     setName("");
@@ -39,7 +42,7 @@ const SignUp = ({ closePopUpBox }) => {
     <>
       <div className="popUpCardContainer">
         <div className="popupContentBox">
-          <p>{mode === "signUp" ? "Sign Up" : "LogIn"}</p>
+          <p>Sign Up</p>
           <p onClick={closePopUpBox}>X</p>
         </div>
         <form className="form" onSubmit={handelData}>
@@ -58,7 +61,7 @@ const SignUp = ({ closePopUpBox }) => {
             </div>
               
 
-              {mode === "signUp" && (
+              
                  <div
                  onFocus={() => focusBorder(2)}
                  className={`inputBox ${isFocused === 2 ? "focus" : ""}`}
@@ -71,14 +74,14 @@ const SignUp = ({ closePopUpBox }) => {
                    onChange={(e) => setEmail(e.target.value)}
                  />
                </div>
-              )}
+           
            
 
             
 
             <div
-              onFocus={() => focusBorder(mode === "signUp" ? 3 : 2)}
-              className={`inputBox ${mode === "signUp" ? "focus" : ""}`}
+              onFocus={() => focusBorder(3)}
+              className={`inputBox ${isFocused === 3 ? "focus" : ""}`}
             >
               <input
                 type="text"
@@ -88,7 +91,7 @@ const SignUp = ({ closePopUpBox }) => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-           {mode === "signUp" && (
+          
              <div className="checkBoxContainer">
               <input
                 type="checkbox"
@@ -105,7 +108,7 @@ const SignUp = ({ closePopUpBox }) => {
                 </p>
               </div>
             </div>
-           )}
+         
             
 
             <div className="btnContainer">
