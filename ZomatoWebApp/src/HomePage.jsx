@@ -19,6 +19,7 @@ const HomePage = () => {
   };
   const logInBox = () => {
     setOpenLogIn(!openLogIn);
+    setOpenSignUp(false);
   };
   return (
     <>

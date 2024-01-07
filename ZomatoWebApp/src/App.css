@@ -1,6 +1,6 @@
 .containerrr {
  width: 100vw;
- height: 100vh;
+
 
  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
  background-repeat: no-repeat;
@@ -212,5 +212,79 @@ background-color: rgba(0, 0, 0, 0.3); */
 .bdg {
   background-color: #5cb85c!important;
 }
+.productContainer {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2vw;
+  
+}
+.productCard {
+  width: 30%;
+  padding: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ align-items: center;
+   
+    /* height: 38vw; */
+}
+.imgBox {
+  width: 95%;
+  
+}
 
+.imgBox  > img {
+  width: 100%;
+  border-radius: 1vw;
 
+}
+
+.namePContainer {
+  width: 95%;
+  
+  margin-top: 0.7vw;
+}
+.productPrice {
+  /* background-color: #5cb85c; */
+ border-radius: 0.3vw;
+}
+.productPrice > span {
+  font-size: 1vw;
+  font-weight: 700;
+  padding: 0.4vw;
+  color: rgb(105, 105, 105)
+
+}
+.productName {
+  border-radius: 0.3vw;
+}
+.productName > span {
+  font-size: 1.22vw;
+  font-weight: 600;
+  padding: 0.4vw;
+  color: rgb(28, 28, 28);
+
+}
+.Addbtn {
+  width: 95%;
+
+  margin-top: 0.7vw;
+}
+.Addbtn > button {
+
+  font-size: 1vw;
+  color: #ffff;
+ 
+  cursor: pointer;
+  padding: 0.3vw 1.6vw;
+  border-radius: 0.6vw;
+  border: none;
+
+}

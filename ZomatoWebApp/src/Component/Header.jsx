@@ -34,7 +34,8 @@ const Header = () => {
           <Nav>
             <Dropdown >
             <Dropdown.Toggle variant="success">
-              <Badge className="bdg" style={{fontSize: '1vw', backgroundColor: "#5cb85c"}} variant="success">{10}</Badge>
+            <FaShoppingCart color="white" fontFamily="10px"/>
+              <Badge className="bdg" style={{fontSize: '1vw', color: "#5cb85c !important"}} variant="success">{10}</Badge>
             </Dropdown.Toggle>
 
             <Dropdown.Menu style={{minWidth: 360}}>

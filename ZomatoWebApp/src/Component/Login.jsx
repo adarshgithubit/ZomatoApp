@@ -1,19 +1,20 @@
 import React, { useState } from "react";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const Login = ({ closePopUpBox }) => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [Password, setPassword] = useState("");
   const [isFocused, setIsFocused] = useState(null);
 
-  const userName = localStorage.getItem("userName")
-  const password = localStorage.getItem("password")
+  const userName = localStorage.getItem("userName");
+  const password = localStorage.getItem("password");
 
- console.log("detail", userName,"-",password)
+  console.log("detail", userName, "-", password);
 
   const focusBorder = (index) => {
     console.log("no", index);
@@ -22,20 +23,16 @@ const Login = ({ closePopUpBox }) => {
 
   const handelData = (e) => {
     e.preventDefault();
-    const data = {
-      name,
+    toast.success("This is a success toast!");
+   
+    if (name === userName && Password === password) {
+      console.log("bhhds", toast.success("This is a success toast!"));
 
-      Password,
-    };
-    if(name === userName && Password === password) {
-      toast.success('This is a success toast!');
-      setTimeout(()=>{
-        navigate("/cusine")
-      },5000)
-     
-      
-    }else {
-      alert("First signup your detail")
+      setTimeout(() => {
+        navigate("/cusine");
+      }, 5000);
+    } else {
+      alert("First signup your detail");
     }
 
     // console.log("signup sucessfull", data);
@@ -86,14 +83,14 @@ const Login = ({ closePopUpBox }) => {
             <button
               className={`btn-1 ${formValid ? "bgGreen" : ""}`}
               type="submit"
-
             >
               Login
             </button>
-            <ToastContainer />
           </div>
         </div>
       </form>
+
+      <ToastContainer />
     </div>
   );
 };

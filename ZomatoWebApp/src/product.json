@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "Pizza",
+    "price": 350,
+    "image": "https://media.istockphoto.com/id/938742222/photo/cheesy-pepperoni-pizza.jpg?s=2048x2048&w=is&k=20&c=gaJCN6GbnNTjlBeuZ2PNJvarzk3-i7kP8WEmMSub8zQ=",
+    "instock": 3,
+    "fastDelivery": "true",
+    "ratings": 5
+  },
+  {
+    "id": "2",
+    "name": "Burger",
+    "price": 255,
+    "image": "https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1703943411~exp=1703944011~hmac=6e9510fc0a9752f968b9c18e450575439b1f8f1ee01b1de8bdc17d84b5ef335d",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 4
+  },
+  {
+    "id": "3",
+    "name": "Sushi",
+    "price": 175,
+    "image": "https://st3.depositphotos.com/2481033/14693/i/450/depositphotos_146931955-stock-photo-the-composition-of-nigiri-sushi.jpg",
+    "instock": 3,
+    "fastDelivery": "true",
+    "ratings": 3
+  },
+  {
+    "id": "4",
+    "name": "Butter-Chicken",
+    "price": 500,
+    "image": "https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 4
+  },
+  {
+    "id": "5",
+    "name": "Chicken-Tikka",
+    "price": 750,
+    "image": "https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili-top-view_2829-19996.jpg?w=996&t=st=1703943762~exp=1703944362~hmac=fff1e4e7d571ce7eb5ad9240c33194b83eb9ec92ea41bcb3183fa7e693883a31",
+    "instock": 6,
+    "fastDelivery": "true",
+    "ratings": 5
+  },
+  {
+    "id": "6",
+    "name": "fish-curry",
+    "price": 650,
+    "image": "https://img.freepik.com/free-photo/delicious-pakistani-dish-high-angle_23-2148825127.jpg?w=996&t=st=1703943853~exp=1703944453~hmac=b35e211b2828650ca269ded6e2d4f71ae31411fa45d0e95ee4dc6eea694a4932",
+    "instock": 5,
+    "fastDelivery": "false",
+    "ratings": 2
+  },
+  {
+    "id": "7",
+    "name": "Dosa",
+    "price": 100,
+    "image": "https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?w=996&t=st=1703943959~exp=1703944559~hmac=0e31881db97007dbd8c0bcf9c67a1ca41142f1ad0f2abddb5057896d4034ffb6",
+    "instock": 9,
+    "fastDelivery": "true",
+    "ratings": 3
+  },
+  {
+    "id": "8",
+     "name":"Biryani",
+    "image": "https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52250.jpg?w=996",
+    "instock": 8,
+    "fastDelivery": "true",
+    "price": 450,
+    "ratings": 4
+  },
+  {
+    "id": "9",
+    "name": "Pav-Bhaji",
+    "price": 400,
+    "image": "https://img.freepik.com/premium-photo/mumbai-style-pav-bhaji-is-fast-food-dish-from-india-consists-thick-vegetable-curry-served-with-soft-bread-roll-served-plate_466689-2240.jpg?w=996",
+    "instock": 7,
+    "fastDelivery": "true",
+    "ratings": 3
+  },
+  {
+    "id": "10",
+    "name": "Noodles",
+    "price": 100,
+    "image": "https://img.freepik.com/free-photo/stir-fried-pork-vegetables-plate-with-chopsticks-generated-by-ai_188544-55572.jpg?t=st=1703938232~exp=1703941832~hmac=d3cdff7b92d0d868fc808a711d10b704fba6612c4cdf2fc7b9f072ed72796ecf&w=1060",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 2
+  },
+  {
+    "id": "11",
+    "name": "Pasta",
+    "price": 530,
+    "image": "https://img.freepik.com/free-photo/mouthwatering-lasagna-with-rich-bolognese-sauce-melted-mozzarella-generated-by-ai_188544-25968.jpg?t=st=1703944511~exp=1703948111~hmac=882442aceea34de8dd55a9bd68b66c72741249198e61d0c7ef04885e5ee0a5af&w=1060",
+    "instock": 8,
+    "fastDelivery": "false",
+    "ratings": 4
+  },
+  {
+    "id": "12",
+    "name": "Palak-Paneer",
+    "price": 285,
+    "image": "https://img.freepik.com/premium-photo/palak-paneer_662214-4174.jpg?w=996",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 2
+  },
+  {
+    "id": "13",
+    "name": "Chicken Handi",
+    "price": 600,
+    "image": "https://img.freepik.com/premium-photo/dish-chicken-curry-with-parsley-parsley_862330-5833.jpg?w=826",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 5
+  },
+  {
+    "id": "14",
+    "name": "Noodles",
+    "price": 100,
+    "image": "https://img.freepik.com/free-photo/stir-fried-pork-vegetables-plate-with-chopsticks-generated-by-ai_188544-55572.jpg?t=st=1703938232~exp=1703941832~hmac=d3cdff7b92d0d868fc808a711d10b704fba6612c4cdf2fc7b9f072ed72796ecf&w=1060",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 2
+  },
+  {
+    "id": "15",
+    "name": "Noodles",
+    "price": 100,
+    "image": "https://img.freepik.com/free-photo/stir-fried-pork-vegetables-plate-with-chopsticks-generated-by-ai_188544-55572.jpg?t=st=1703938232~exp=1703941832~hmac=d3cdff7b92d0d868fc808a711d10b704fba6612c4cdf2fc7b9f072ed72796ecf&w=1060",
+    "instock": 8,
+    "fastDelivery": "true",
+    "ratings": 2
+  }
+]
